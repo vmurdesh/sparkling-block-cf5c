@@ -1,0 +1,30 @@
+{
+  "name": "sparkling-block-cf5c",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "quiet-sound-d3f8-d1",
+      "database_id": "4f728927-4fb6-4008-84d0-58774741047e"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "sparkling-block-cf5c-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
